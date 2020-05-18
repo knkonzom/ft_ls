@@ -1,2 +1,2 @@
 # ft_ls
-Recoding libc "ls" function.
+Recoding the libc "ls" function.
