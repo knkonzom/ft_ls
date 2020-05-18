@@ -26,7 +26,7 @@ int		print_error(char *s, int err)
 		ft_putstr_fd("ft_ls: illegal option -- ", 2);
 		ft_putchar_fd(*s, 2);
 		ft_putchar_fd('\n', 2);
-		ft_putendl_fd("Usage: ft_ls [-a; -l; -R; -r; -t; -d; -G; -1; -S; -s] [file ...]", 2);
+		ft_putendl_fd("Usage: ./ft_ls [-a; -l; -R; -r; -t; -d; -G; -1; -S; -s] [file ...]", 2);
 	}
 	else if (err == ERRNO || err == MALL_ERR)
 		ft_putstr_fd("ft_ls: ", 2);
